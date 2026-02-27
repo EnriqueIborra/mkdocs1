@@ -283,9 +283,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dins-de-la-carpeta-mi-web" class="md-nav__link">
+  <a href="#puja-el-projecte-dins-de-la-carpeta-mi-web" class="md-nav__link">
     <span class="md-ellipsis">
-      Dins de la carpeta mi-web
+      Puja el projecte: Dins de la carpeta mi-web
     </span>
   </a>
   
@@ -326,9 +326,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dins-de-la-carpeta-mi-web" class="md-nav__link">
+  <a href="#puja-el-projecte-dins-de-la-carpeta-mi-web" class="md-nav__link">
     <span class="md-ellipsis">
-      Dins de la carpeta mi-web
+      Puja el projecte: Dins de la carpeta mi-web
     </span>
   </a>
   
@@ -350,23 +350,24 @@
 
 
 <h1 id="publicar-en-github">Publicar en GitHub</h1>
-<pre><code>1. Prepara clau  :   ssh-keygen -t ed25519 -C "tu-mail@correo.com"
-2. Puja a github :  https://github.com/settings/keys   (C&amp;P el text de la clau .pub) demana passphrase!
+<pre><code>1. Prepara clau  :   ssh-keygen -t ed25519 -C "tu-mail@correo.com"  ## el mail associat al teu compte de github
+2. Puja la clau a github :  https://github.com/settings/keys   (C&amp;P el text de la clau .pub) demana passphrase!
 3. Canvia repositori:  git remote set-url origin git@github.com:tuusuario/tu-repo.git
-4. Crea un repositori en GitHub.
+4. Crea un repositori en GitHub. (tu-repo)
 5. Puja el projecte:
 </code></pre>
-<h2 id="dins-de-la-carpeta-mi-web">Dins de la carpeta mi-web</h2>
+<h2 id="puja-el-projecte-dins-de-la-carpeta-mi-web">Puja el projecte:  Dins de la carpeta mi-web</h2>
 <pre><code>git init
 git add .
 git commit -m "Primera versio"
 git branch -M main
 git remote add origin https://github.com/tuusuario/tu-repo.git
-git push -u origin main
+git push -u origin main   (demana passphrase)
 mkdocs gh-deploy     (demana passphrase)
 </code></pre>
 <p>Llest ! 🎉 Tens la teua web pública en:</p>
 <p>https://tuusuario.github.io/tu-repo/</p>
+<p>Ja està el VSCode configurat. Ara sols cal fer un "mkdocs gh-deploy" cada vegada que volem pujar els canvis a github</p>
 
 
 
