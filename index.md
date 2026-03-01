@@ -8,7 +8,8 @@ Text en *negreta*
 
 text de `codi`
 
-``` Text de block
+```
+Text de block
 ```
 
 taula
