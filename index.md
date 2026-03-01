@@ -1,21 +1,25 @@
-# Principal
+# Markdown
 
-## Segon nivell
+## Segon nivell  amb dos \#
 
-### Tercer nivell
+### Tercer nivell  amb tres \#
 
-Text en *negreta*  
+Text en *italica*   o en **negreta**
 
 text de `codi`
 
 ```
 Text de block
+amb més d'una linea
 ```
-
+---
 taula
 u | dos | tres
 -------|------|-------
 quatre  | cinc | sis
 set | vuit | nou
+---
+emojis 😂
+H<sub>2</sub>O  <== subindex
 
 
