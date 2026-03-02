@@ -27,6 +27,8 @@ emojis 😂
 
 H<sub>2</sub>O  <== subindex
 
+e=mc<sup>2</sup>   <==  superindex
+
 Text amb <mark>molta importància</mark> 
 
 Llista no ordenada
