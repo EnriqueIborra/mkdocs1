@@ -1,10 +1,10 @@
 ## Visita la pagina en : https://enriqueiborra.github.io/mkdocs1/
 
-# Markdown
+# Markdown. Títol . amb un \#
 
-## Segon nivell  amb dos \#
+## Títol de Segon nivell  amb dos \#
 
-### Tercer nivell  amb tres \#
+### Títol de Tercer nivell  amb tres \#
 
 Text en *italica*   o en **negreta**
 
@@ -23,6 +23,20 @@ set | vuit | nou
 ---
 emojis 😂
 H<sub>2</sub>O  <== subindex
+
+Llista no ordenada
+- elem 1
+- elem 2
+- 
+Llista ordenada
+1. elem 1
+2. elem 2
+   
+Lista de tasques
+- [ ]  tasca 1
+- [x]  Tasca 2
+- [ ]  Tasca 3
+- [x]  Tasca 4
 
 
 
