@@ -14,7 +14,9 @@ text de `codi`
 Text de block
 amb més d'una linea
 ```
+
 ---
+
 taula
 u | dos | tres
 -------|------|-------
@@ -22,7 +24,10 @@ quatre  | cinc | sis
 set | vuit | nou
 ---
 emojis 😂
+
 H<sub>2</sub>O  <== subindex
+
+Text amb <mark>molta importància</mark> 
 
 Llista no ordenada
 - elem 1
